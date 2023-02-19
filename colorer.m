@@ -16,7 +16,7 @@ temp = [1,2,3,4];
    if length(temp) ~=0
  c=[c temp(1)];
    else
-        disp('le graphe nest pas  4-coloriable');
+        disp('graph is not 4-coloriable');
         break;
      end  
 temp = [1,2,3,4];
